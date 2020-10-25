@@ -44,10 +44,10 @@ Array.prototype.mapAndLog = function() {
     return this.map.apply(this, arguments)
 }
 
-console.log([1, 2, 3, 4].mapAndLog(x => x ** 2))
+// console.log([1, 2, 3, 4].mapAndLog(x => x ** 2))
 
 String.prototype.toTag = function(tagName) {
     return `<${tagName}>${this}</${tagName}>`
 }
 
-console.log('any string'.toTag('span'))
+// console.log('any string'.toTag('span'))
